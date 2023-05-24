@@ -35,8 +35,7 @@ export default class App extends Component {
   render() {
     const { title, contents_1, contents_2, footer, save } = this.state.tran
     return (
-      <div>
-
+      <div className="content">
         <div className="card">
           <div className="cardHead">
             <div>{title}</div>

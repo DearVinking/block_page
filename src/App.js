@@ -8,10 +8,11 @@ export default class App extends Component {
       title: 'This request has been blocked',
       contents_1: 'Some of your characteristics exist in the blacklist and this request has been blocked.',
       contents_2: 'If you think this is a false alarm, please contact me promptly.',
-      footer: '@Vinking Security Center',
+      symbols: '@Vinking Security Center',
       tips: 'Details have been saved to continuously optimize the Security Center'
     }
   }
+
   handleTranslations = () => {
     const { lang } = this.state.tran
     const newState = (lang === 'en') ? {

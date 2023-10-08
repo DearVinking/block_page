@@ -79,7 +79,7 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: linear-gradient(180deg, rgba(251, 251, 253, .8), rgb(255 255 255 / 50%) 90%);
+  background: linear-gradient(180deg, rgba(251, 251, 253, .8), rgb(255 255 255 / 50%));
 }
 
 .card-header::after {
@@ -93,13 +93,6 @@ body {
   top: 0.9rem;
   box-shadow: 1.25rem 0 #fdbc40, 2.5rem 0 #35cd4b;
   z-index: 2;
-}
-
-.translation {
-  align-items: center;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
 }
 
 .card-description {

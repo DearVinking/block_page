@@ -87,6 +87,7 @@ body {
 }
 
 .card-header::after {
+  content: " ";
   background: linear-gradient(to bottom, rgba(251, 251, 253, .8), hsla(0, 0%, 100%, .5));
 }
 
